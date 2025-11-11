@@ -4,7 +4,7 @@ $string = "  Eu sou uma string  ";
 $string1 = "EU SOU UMA STRING";
 $string2 = "  Eu sou uma nova string";
 $string3 = "Eu sou uma nova string  ";
-$codigo = "2";
+$codigo = "123";
 
 $lower = strtolower($string1);
 $upper = strtoupper($string3);
@@ -15,6 +15,13 @@ echo "Minusculo: $lower \n";
 echo "Maiusculo: $upper \n";
 echo "Captalize: $cap \n";
 echo "Captalize: $cap2 \n";
+
+$padl = str_pad($codigo, 6, '0', STR_PAD_LEFT);
+$padr = str_pad($codigo, 6, '0', STR_PAD_RIGHT);
+
+echo "Valor original: $codigo \n";
+echo "Inserindo a esquerda: $padl \n";
+echo "Inserindo a direita: $padr \n";
 
 
 # trim - ltrim - rtrim : responsável por eliminar os espaços em branco
