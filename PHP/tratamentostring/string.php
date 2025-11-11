@@ -6,7 +6,7 @@
     $string3 = "Eu sou uma nova string  ";
     $codigo = "2";
 
-    # trim : responsável por eliminar os espaços em branco
+    # trim - ltrim - rtrim : responsável por eliminar os espaços em branco
     $trim = trim($string);
     $ltrim = ltrim($string);
     $rtrim = rtrim($string);
@@ -14,5 +14,13 @@
     echo "$trim \n";
     echo "$ltrim \n";
     echo "$rtrim \n";
+
+    # strlen : mostrar a quantidade de caracteres de uma string
+    $len = strlen($string3);
+    echo "A string possui $len caracteres \n";
+    # substr - mostrar um determinado numero de caracteres
+    $sbs = substr($strings, 4, 9);
+    echo "$sbs \n";
+
 
 ?>
