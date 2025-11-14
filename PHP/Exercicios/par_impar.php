@@ -1,5 +1,5 @@
 <?php 
-function conferindoNumero($num) {
+function conferirNumero($num) {
     if ($num % 2 == 0 && $num < 0) {
         echo "PAR NEGATIVO\n";
     } elseif ($num % 2 == 0 && $num > 0) {
@@ -20,6 +20,6 @@ for ($i = 0; $i < $n; $i++) {
     echo "Digite um numero: ";
     $num = (int) readline();
 
-    $result = conferindoNumero($num);
+    $result = conferirNumero($num);
 }
 ?>
