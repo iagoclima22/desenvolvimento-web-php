@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08 - Trabalhando com formulários</title>
+</head>
+<body>
+    <!-- Trabalhando com formulários -->
+     <h1>Cadastro de cliente</h1>
+     <form action="#" method="" style="background-color: rgb(89, 89, 195); padding: 10 ps;">
+        <!-- input do tipo text -->
+        <label for="">Nome cliente</label>
+        <input type="text" name="nome" placeholder="Digite seu nome..."><br>
+
+        <!-- input do tipo number -->
+        <label for="">Idade</label>
+        <input type="number" name="idade" min="0" max="1000" step="1" placeholder="Digite sua idade..."><br>
+
+        <!-- input do tipo date -->
+        <label for="">Data Nascimento</label>
+        <input type="date" name="datanascimento" placeholder="Digite a data de nascimento..."><br>
+
+        <!-- input do tipo password -->
+        <label for="">Senha</label>
+        <input type="password" name="senha" placeholder="Digite uma senha forte..."><br>
+
+        <!-- input do tipo checkbox -->
+        <label for="">Opções</label><br>
+        opção 1<input type="checkbox" name="senha"><br>
+        opção 2<input type="checkbox" name="senha"><br>
+        opção 3<input type="checkbox" name="senha"><br>
+
+        <!-- input do tipo password -->
+        <label for="">Sexo</label><br>
+        Masculino: <input type="radio" name="senha"><br>
+        Feminino: <input type="radio" name="senha"><br>
+        Outro: <input type="radio" name="senha"><br>
+        
+        <!-- input para submeter dados -->
+        <input type="submit" name="salvarDados" value="Enviar Dados">
+
+     </form>
+    
+</body>
+</html>
