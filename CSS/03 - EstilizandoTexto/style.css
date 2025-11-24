@@ -1,41 +1,22 @@
-/* estilizando elementos de texto */
-h1 {
-    font-family: 'Lucida Sans' ,sans-serif;
-    color: brown;
-    /* text-transform: uppercase; */
-    text-transform: capitalize;
-    /* text-transform: lowercase; */
-    font-weight: 900;
-    letter-spacing: 3.3px;
-    text-shadow: 2px 2px 5px rgba(0,0,0, 0.7);
-    text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando elementos de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
 
-p {
-    font-family: 'Lucida Sans' ,sans-serif;
-    color: rgb(8, 58, 13);
-    /* text-transform: uppercase; */
-    /* text-transform: capitalize; */
-    text-transform: lowercase;
-    font-weight: 900;
-    letter-spacing: 1.3px;
-    font-size: 16px;
-    line-height: 26px;
-    text-indent: 30px;
-    text-align: center;
-}
+    <h1 class="poppins-black">Olá eu sou um titulo</h1>
+    <p class="poppins-regular">
+         is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </p>
+    
+    <blockquote>O texto utilizado foi extraido do site https://www.lipsum.com/</blockquote>
 
-blockquote{
-    font-family: 'Lucida Sans' ,sans-serif;
-    color: rgb(8, 58, 13);
-    /* text-transform: uppercase; */
-    /* text-transform: capitalize; */
-    text-transform: lowercase;
-    font-weight: 900;
-    letter-spacing: 1.3px;
-    font-size: 16px;
-    line-height: 26px;
-    font-style: italic;
-    text-align: right;
-}
+</body>
+</html>
+
 
