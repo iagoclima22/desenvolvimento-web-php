@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #444;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
